@@ -1,0 +1,49 @@
+/* Загальні стилі */
+body {
+    background-image: url('123.jpg'); /* Змініть шлях до вашого фонового зображення */
+    background-size: cover;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 2px solid red; /* Червоний рядок на початку абзаців */
+    font-style: italic;
+}
+
+/* Заголовок 1-го рівня */
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: #990000; /* Червоний колір */
+}
+
+/* Рисунок */
+img {
+    max-width: 100%;
+    height: 150px;
+    margin: 10px 0;
+    float:left; /* Вирівнювання по лівому краю */
+    margin: 7px 7px 7px 0;
+}
+
+/* Стилі посилань */
+a {
+    color: #3366cc; /* Колір не відвіданого посилання */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #800080; /* Колір відвіданого посилання */
+}
+
+/* Стилі для інших станів посилань можна додати за потребою */
